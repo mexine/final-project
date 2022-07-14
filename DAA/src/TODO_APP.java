@@ -10,7 +10,7 @@ import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.JLabel;
 import java.awt.Font;
 
-public class Testing {
+public class TODO_APP {
 
 	private JFrame frame;
 	private JLabel lblNewLabel_1;
@@ -23,7 +23,7 @@ public class Testing {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Testing window = new Testing();
+					TODO_APP window = new TODO_APP();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -75,7 +75,7 @@ public class Testing {
 	/**
 	 * Create the application.
 	 */
-	public Testing() {
+	public TODO_APP() {
 		initialize();
 		NewLabel_1();
 		NewLabel_2();
